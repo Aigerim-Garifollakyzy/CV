@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+   <header>
+      <a target="_blank" href="cv.html"><button class="cvbutton">My CV</button></a>
+      <a target="_blank" href="index.html"><button>Menu</button></a>
+   </header>    
+<head>
         <meta charset="UTF-8">
-<h1 style="color: rgb(168, 102, 230);">Welcome to my Site!</h1>
+<h1 class="menuhead">Welcome to my Site!</h1>
+<link rel="stylesheet" type="text/css" href="styles.css" >
 </head>
-<body style="background-color: antiquewhite;">
-<hr size="10" style="color:rgb(246, 246, 246);"/>
-<h1 style="color: rgb(97, 49, 142);"> Please insert the information below </h1> 
-<br>
-<h1><a target="_blank" href="cv.html"><button>My CV</button></a></h1>
-<hr size="2" noshade>
-<p1>
-   Thank you!
-</p1>
-<hr size="2" noshade>
-<form>
+<body>
+   <div class="container_menu"> 
+<h1> Please, insert the information below </h1> 
+<div class="form">
+<form action="cv.html">
+   <div class="form_group">
    <label for="name">Your Name:</label>
    <input type="text" id="name" />
-   <br />
+</div>
+<div class="form_group">
    <label for="surname">Your surname:</label>
    <input type="text" id="surname" />
-   <br />
-   <label for="email">EMAIL:</label>
+</div>
+   <div class="form_group">
+   <label for="email">Email:</label>
    <input type="email" id="email" />
-   <br />
+</div>
+   <div class="form_group">
    <label for="password">Password:</label>
    <input type="password" id="password" />
-   <br />
+</div>
+   <div class="form_group">
+   <label for="date">Birth Date:</label>
    <input type="date" />
-   <br />
-   <input type="submit" value="Submit"/>
-   <br />
- 
+</div>
+   <div class="form_group">
    <select name ="groups" id="groups">
       <option value=""> Select your group </option>
       <option value="F4"> F4 Monday Thursday </option>
       <option value="F5"> F5 Tuesday Friday</option>
       <option value="F6"> F6 Wednesday Saturday </option>
+   </div>
+      <div class="form_group">
+   <input type="submit" value="Submit"/>
+</div>
 </form>
+</div>
+</div>
 </body>

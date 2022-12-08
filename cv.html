@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" />
         <title>My CV</title>
-    </head>
-    <body style="background-color: rgb(255, 255, 235);">
-        <table cellspacing="15">
-            <tr>
-              <td>
-                <img src="myphoto.jpg" width="200" alt="here is my photo" />
-              </td>
-              <td>
+        <link rel="stylesheet" type="text/css" href="styles.css" >
+</head>
+    <body>
+        <header>
+            <a target="_blank" href="index.html"><button>Menu</button></a>
+        </header>
+        <div class="container">
+            <div class="info">                              
+       <div class="animation-img">
+                <img class="myphoto" src="myphoto.jpg" alt="here is my photo" />
+                </div>
+                <div class="info-text"></div>
                 <h1>Aigerim Garifollakyzy</h1>
-                <p><em> I am a <strong>financial</strong> analyst </em></p>
-                <p>I will help you take your company to the next level!</p>
-              </td>
-            </tr>
-          </table>
-            <hr size="2" noshade>
-            <h2 style="color: rgb(135, 86, 0);"> Work Experience</h2>
-            <table border="2">
+                <p><em> I am a <strong>financial</strong> analyst </em>
+            </br>
+                I will help you take your company to the next level!</p>
+          </div>
+                <div class=" groups back-yellow">
+            <h2> Work Experience</h2>
+            <table class="table_list">
                 <tbody>
 <tr>
     <th>Company</th>
@@ -43,17 +46,17 @@
 </tr>
 </tbody>
             </table>
-            <hr size="2" noshade>
-            <h2 style="color:rgb(135, 86, 0);">Education</h2>
-            <ol>
+        </div>
+<div class="groups back-blue">
+            <h2>Education</h2>
+            <ol class="or_list">
                <li>NU 2022</li> 
-                </ol>
-                <ol>
                    <li>KTL 2017</li> 
                 </ol>
-
-            <h2 style="color: rgb(135, 86, 0);">Hobby</h2>
-            <ul type="square">
+</div>
+<div class="groups back-green">
+            <h2>Hobby</h2>
+            <ul type="square" class="list">
                 <li>
                     Running
                 </li>
@@ -64,17 +67,19 @@
                     Playing guitar
                 </li>
             </ul>
-            <hr size="2" noshade>
-            <h2 style="color: rgb(135, 86, 0);">Contacts</h2>
-            <ol>
+            </div>
+            <footer>
+            <h2>Contacts</h2>
+            <ul type="inherit" class="list">
                 <li>
                     <a href="https://github.com/Aigerim-Garifollakyzy">Github</a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/aigerim-garifollakyzy/">LinkedIn</a>
                 </li>
-            </ol>
-
-          
+            </ul>
+        </footer>
+          </div>
+        </div>
     </body>
 </html>
